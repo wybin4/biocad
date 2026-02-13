@@ -1,0 +1,16 @@
+database:
+  uri: mongodb://localhost:27017
+  database: tsv_processor
+  username: ""
+  password: ""
+  auth_db: admin
+
+watcher:
+  input_dir: ./data/input
+  output_dir: ./data/output
+  poll_interval: 10s
+  workers: 5
+
+api:
+  host: 0.0.0.0
+  port: 8080
