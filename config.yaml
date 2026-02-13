@@ -1,8 +1,8 @@
 database:
   uri: mongodb://localhost:27017
   database: tsv_processor
-  username: ""
-  password: ""
+  username: admin
+  password: password
   auth_db: admin
 
 watcher:
